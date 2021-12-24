@@ -1,9 +1,11 @@
 import java.util.Scanner;
 
-public class tugasPertemuan3 {
+public class TugasPertemuan3 {
+    private static Scanner scan;
+
     public static void main(String[] args){
         
-        Scanner scan = new Scanner(System.in);
+        scan = new Scanner(System.in);
       
         String nLengkap, nim, angkatan, pStudi, jurusan, fakultas, ipkHarapan;
 
