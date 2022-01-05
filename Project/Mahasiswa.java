@@ -1,3 +1,5 @@
+package Project;
+
 public class Mahasiswa extends Manusia {
     private String nim;
     private String nama;

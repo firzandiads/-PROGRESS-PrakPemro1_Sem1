@@ -1,3 +1,5 @@
+package Project;
+
 import java.util.Scanner;
 
 public class Siakad {
@@ -64,7 +66,7 @@ public class Siakad {
         double ipk = scan.nextDouble();
         System.out.print("Masukan Tinggi Badan mahasiswa = ");
         double tinggi = scan.nextDouble();
-        System.out.print("You on Semester Berapa = ");
+        System.out.print("Masukan semester = ");
         int semester = scan.nextInt();
         Mahasiswa inputMahasiswa = new Mahasiswa(nim, nama, ipk, semester);
         inputMahasiswa.setTinggiBadang(tinggi);
